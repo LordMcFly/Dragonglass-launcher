@@ -28,7 +28,7 @@ More or less the same as Dagger but in a contextual menu instead of a window. To
 
 
 # Sword (default: Win+F3)
-Simply displays a a window where each button corresponds to a keyboard key and when pressing that key, it launches any file, folder, website or web search (by default, it has a QWERTY layout but you can modify each key by changing the letters in the config.ini file).
+Displays a window where each button corresponds to a keyboard key and when pressing that key, it launches any file, folder, website or web search (by default, it has a QWERTY layout but you can modify each key by changing the letters in the config.ini file).
 
 ![Screenshot 2023-03-04 114652](https://user-images.githubusercontent.com/25079071/222896681-a8620d9b-fe34-457c-a3aa-a451a3ca9796.png)
 
