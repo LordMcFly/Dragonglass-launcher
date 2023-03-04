@@ -1,8 +1,13 @@
 # Dragonglass-launcher
-A simple launcher to edit text files on the fly and launch files, folders, websites and websearches.
+A simple launcher to edit text files on the fly and launch files, folders, websites and websearches. It is written in AHK but it is compiled so it can be used as a normal .exe software.
+
+## How to use
+-executable version: run Dragonglass-QWERTY.exe
+-AHK version: launch main.ahk
+For both versions, make sure the config.ini file is in the same folder as the .exe or .ahk. To launch it on windows startup, click the "Launch on startup" button in the parameters windows and follow the instructions.
 
 # Origin story
-Dragonglass launcher started as a companion for Obsidian (thus the name) which is a software for organising and editing large amounts of text files. But I didn't want to have to launch it everytime I wanted add just a few sentences to one file. So I wanted a way to browse a specific set of files, choose one and quickly add text at the end of it. The final result is made of 3 tools, each with its own customizable hotkey.
+Dragonglass Launcher started as a companion for [Obsidian](https://obsidian.md/) (thus the name) which is a software for organising and editing large amounts of text files. But I didn't want to have to launch it everytime I wanted add just a few sentences to one file. So I wanted a way to browse a specific set of files, choose one and quickly add text at the end of it. The final result is made of 3 tools, each with its own customizable hotkey.
 
 # Dagger (default: Win+F1)
 Interface with a tree view of a folder on the left side and a text file preview on the right. F1, F2, F3 and F4 each loads a custom folder path and you can modify the file's content directly in the preview then press ctrl+S or the button Save. Or you can either launch the file (alt+L) or edit it (alt+E). Editing it means a small window will pop up with an empty edit box. Type or paste anything and when pressing "Save" the text will be added at the end of the file.
@@ -28,7 +33,6 @@ Simply displays a a window where each button corresponds to a keyboard key and w
 
 
 # Final word
-If you use the .exe version, just make sure to always have the config.ini file in the same folder. 
 For the AHK version, I tried to made the code user friendly with each main component separated in a different file and comments separating sections for easy editing. Feel free to use and modify this as you will and I hope it will prove useful to some of you!
 
 
