@@ -3,6 +3,7 @@ A simple launcher to edit text files on the fly and launch files, folders, websi
 
 ## How to use
 -executable version: run Dragonglass-QWERTY.exe
+
 -AHK version: launch main.ahk
 For both versions, make sure the config.ini file is in the same folder as the .exe or .ahk. To launch it on windows startup, click the "Launch on startup" button in the parameters windows and follow the instructions.
 
