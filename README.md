@@ -1,12 +1,11 @@
 # Dragonglass-launcher
-A simple launcher to edit text files on the fly and launch files, folders, websites and websearches. It is written in AHK but it is compiled so it can be used as a normal .exe software.
+A simple launcher to edit text files on the fly and launch files, folders, websites and websearches. It is written in AHK.
 
 ## How to use
--executable version: run Dragonglass-QWERTY.exe
+- install [AutoHotkey](https://www.autohotkey.com/)
+- launch main.ahk
 
--AHK version: launch main.ahk
-
-For both versions, make sure the config.ini file is in the same folder as the .exe or .ahk. To launch it on windows startup, click the "Launch on startup" button in the parameters windows and follow the instructions.
+In order for the script to work properly, all the .ahk files and config.ini need to be in the same folder. To launch it on Windows startup, click the "Launch on startup" button in the parameters window and follow the instructions.
 
 # Origin story
 Dragonglass Launcher started as a companion for [Obsidian](https://obsidian.md/) (thus the name) which is a software for organising and editing large amounts of text files. But I didn't want to have to launch it everytime I wanted add just a few sentences to one file. So I wanted a way to browse a specific set of files, choose one and quickly add text at the end of it. The final result is made of 3 tools, each with its own customizable hotkey.
