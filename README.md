@@ -34,7 +34,7 @@ Displays a window where each button corresponds to a keyboard key and when press
 
 
 # Final word
-For the AHK version, I tried to made the code user friendly with each main component separated in a different file and comments separating sections for easy editing. Feel free to use and modify this as you will and I hope it will prove useful to some of you!
+I tried to made the code user friendly with each main component separated in a different file and comments separating sections for easy editing. Feel free to use and modify this as you will and I hope it will prove useful to some of you!
 
 
 # Credits
