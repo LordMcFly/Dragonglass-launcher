@@ -1,4 +1,4 @@
-﻿CoordMode, Menu
+CoordMode, Menu
 
 ;======================= Arrow functions =======================
 
@@ -15,10 +15,6 @@ ShowArrow:
 	{
 		Menu, dragonglass, Add
 		Menu, dragonglass, deleteAll
-		
-		Menu,dragonglass,add, %arrowfolder%,godir
-		Menu,dragonglass,disable, %arrowfolder%
-		Menu,dragonglass,add,---Open folder---,godir
 
 		Loop, %arrowfolder%\*.*, 2, 1
 		{
@@ -44,6 +40,9 @@ ShowArrow:
 				pardir = dragonglass
 			Menu,%pardir%,add,%file%,arrowedit
 		}
+		Menu,dragonglass,add
+		Menu,dragonglass,add,---Open folder---,godir
+		Menu,dragonglass,add,---New File---,newfile
 		Menu,dragonglass,show
 	}
 	Return
@@ -119,4 +118,20 @@ godir:
 		else
 			run %arrowfolder%\%A_ThisMenu%
 	Return
-	
+
+newfile:
+	Gui, 2:Font, s10 w400, %fontfamily%
+	Gui, 2:Add, Text,, Enter the file's name and extension
+	Gui, 2:Add, Edit, vnewfilename
+	Gui, 2:Add, Button, w%daggerbuttonw% x%saveeditx% gnewfilesave default, &Create and edit
+	Gui 2:Show,, New file
+	Return
+
+newfilesave:
+	Gui, Submit
+	Gui, 2:destroy
+	fileappend,, %arrowfolder%\%newfilename%
+	universalpath=%arrowfolder%\%newfilename%
+	supertitle=%newfilename%
+	Gosub universaledit
+	Return
