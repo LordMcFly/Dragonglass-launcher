@@ -278,6 +278,7 @@ supersave:
 	IniWrite, %superpath%, config.ini, Keys, %universalkey%run
 	IniWrite, %labelnew%, config.ini, Keys, %universalkey%label
 	Gui, 2:destroy
+	Reload
 	Return
 
 choosesearch:
